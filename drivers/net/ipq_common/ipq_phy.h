@@ -54,6 +54,9 @@
 #ifdef CONFIG_RTL8221_PHY
 #define RTL8221_PHY 			0x001CC849
 #endif
+#ifdef CONFIG_YT8821_PHY
+#define YT8821_PHY				0x4f51ea19
+#endif
 #ifdef CONFIG_RTL8372N_SWITCH
 #define RTL8372N_PHY			0x00837270
 #endif
@@ -158,6 +161,9 @@ enum phy_mode {
 	ATHRS17C_SWITCH_TYPE = 7,
 	RTL8221_PHY_TYPE = 8,
 	RTL8372N_SWITCH_TYPE = 9,
+#ifdef CONFIG_YT8821_PHY
+	YT8821_PHY_TYPE = 10,
+#endif
 	UNUSED_PHY_TYPE = 0xFF,
 };
 

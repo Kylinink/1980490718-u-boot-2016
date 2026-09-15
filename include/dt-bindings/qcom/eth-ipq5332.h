@@ -50,6 +50,7 @@
 #define ATHRS17C_SWITCH_TYPE		0x7
 #define RTL8221_PHY_TYPE		0x8
 #define RTL8372N_SWITCH_TYPE	0x9
+#define YT8821_PHY_TYPE		    0xA
 #define UNUSED_PHY_TYPE 		0xFF
 #endif
 
